@@ -1,0 +1,170 @@
+[
+    {
+        "id": "1",
+        "nombre": "ADMINISTRATIVOS EDUCACIÓN FÍSICA"
+    },
+    {
+        "id": "2",
+        "nombre": "ADMINISTRATIVOS OFICINAS CENTRALES"
+    },
+    {
+        "id": "3",
+        "nombre": "ADMINISTRATIVOS TELEBACHILLERATO"
+    },
+    {
+        "id": "4",
+        "nombre": "ADMINISTRATIVOS Y DOCENTES DE LA D.G.B."
+    },
+    {
+        "id": "5",
+        "nombre": "BACHILLEARTO RICARDO FLORES MAGÓN MIXTO"
+    },
+    {
+        "id": "6",
+        "nombre": "BACHILLERATO"
+    },
+    {
+        "id": "7",
+        "nombre": "BACHILLERATO ARTÍCULO 3° DIURNA"
+    },
+    {
+        "id": "8",
+        "nombre": "BACHILLERATO ANTONIO MARÍA DE RIVERA"
+    },
+    {
+        "id": "9",
+        "nombre": "BACHILLERATO ANTONIO MARÍA DE RIVERA MIXTA"
+    },
+    {
+        "id": "10",
+        "nombre": "BACHILLERATO ANTONIO MARÍA DE RIVERA VESPERTINA"
+    },
+    {
+        "id": "11",
+        "nombre": "BACHILLERATO DE VERACRUZ VESPERTINO"
+    },
+    {
+        "id": "12",
+        "nombre": "BACHILLERATO JOAQUÍN RAMÍREZ CABAÑAS MIXTA"
+    },
+    {
+        "id": "13",
+        "nombre": "BACHILLERATO SABATINO"
+    },
+    {
+        "id": "14",
+        "nombre": "BACHILLERATOS MATUTINOS"
+    },
+    {
+        "id": "15",
+        "nombre": "BACHILLERATOS VESPERTINOS"
+    },
+    {
+        "id": "16",
+        "nombre": "BACHILLERES OFICIAL"
+    },
+    {
+        "id": "17",
+        "nombre": "DEPARTAMENTO NORMALES"
+    },
+    {
+        "id": "18",
+        "nombre": "EDUCACIÓN ESPECIAL"
+    },
+    {
+        "id": "19",
+        "nombre": "EDUCACIÓN FÍSICA"
+    },
+    {
+        "id": "20",
+        "nombre": "ENSEÑANZAS MUSICALES"
+    },
+    {
+        "id": "21",
+        "nombre": "ESCUELA DE ENFERMERÍA"
+    },
+    {
+        "id": "22",
+        "nombre": "ESCUELA SECUENDARIA Y BACHILLERATO ABIERTO"
+    },
+    {
+        "id": "23",
+        "nombre": "ESCUELA SECUNDARIA EXPERIMENTAL"
+    },
+    {
+        "id": "24",
+        "nombre": "ESCUELA SECUNDARIA Y BACHILLERES DE ARTES Y OFICIOS"
+    },
+    {
+        "id": "25",
+        "nombre": "ESCUELA Y BACHILLERES ALFONSO REYES"
+    },
+    {
+        "id": "26",
+        "nombre": "ESTEBAN M"
+    },
+    {
+        "id": "27",
+        "nombre": "FORÁNEAS"
+    },
+    {
+        "id": "28",
+        "nombre": "ILLUSTRE"
+    },
+    {
+        "id": "29",
+        "nombre": "JUBILADOS Y PENSIONADOS"
+    },
+    {
+        "id": "30",
+        "nombre": "LOCALES"
+    },
+    {
+        "id": "31",
+        "nombre": "MANUALES"
+    },
+    {
+        "id": "32",
+        "nombre": "NORMAL"
+    },
+    {
+        "id": "33",
+        "nombre": "NORMAL MANUEL SUÁREZ TRUJILLO"
+    },
+    {
+        "id": "34",
+        "nombre": "PREESCOLAR"
+    },
+    {
+        "id": "35",
+        "nombre": "PRIMARIA"
+    },
+    {
+        "id": "36",
+        "nombre": "SECUNDARIA"
+    },
+    {
+        "id": "37",
+        "nombre": "SECUNDARIA Y BACHILLERATO"
+    },
+    {
+        "id": "38",
+        "nombre": "TÉCNICOS DOCENTES ADMINISTRATIVOS"
+    },
+    {
+        "id": "39",
+        "nombre": "TELEBACHILLERATO"
+    },
+    {
+        "id": "40",
+        "nombre": "TELESECUNDARIA"
+    },
+    {
+        "id": "41",
+        "nombre": "UNIVERSIDAD FEMENINA"
+    },
+    {
+        "id": "42",
+        "nombre": "UNIVERSIDAD PEDAGÓGICA VERACRUZANA"
+    }
+]

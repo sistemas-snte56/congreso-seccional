@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->foreignId('region_id')->constrained('regiones');
             $table->string('delegacion')->unique();             // D-II-59
-            $table->string('sede')->nullable();            
             $table->foreignId('nivel_id')->constrained('niveles');
+            $table->string('sede')->nullable();            
             $table->timestamps();
         });
     }

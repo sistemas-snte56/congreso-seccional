@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Region;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\File;
 
 class RegionSeeder extends Seeder
 {
@@ -12,26 +13,21 @@ class RegionSeeder extends Seeder
      */
     public function run(): void
     {
-        $path = database_path('seeders/data/regiones.csv');
+        $path = database_path('seeders/data/regiones.json');
 
-        if (!file_exists($path)) {
-            $this->command->warn('El archivo regiones.csv no fue encontrado.');
+        if (!File::exists($path)) {
+            $this->command->warn('El archivo regiones.json no fue encontrado.');
             return;
         }
 
-        $regions = array_map('str_getcsv', file($path));
+        // Leer y decodificar el JSON automáticamente a array de PHP
+        $regiones = File::json($path);
 
-        foreach ($regions as $index => $row) {
-            if ($index === 0) continue; // Omitir cabecera
-
-            Region::updateOrCreate(
-                ['id' => $row[0]],
-                [
-                    'nombre' => $row[1],
-                ]
-            );
+        // Insertar en bloques de 500 para máximo rendimiento
+        foreach (array_chunk($regiones, 500) as $chunk) {
+            Region::upsert($chunk, ['id'], ['nombre']);
         }
 
-        $this->command->info('Regiones importadas correctamente.');
+        $this->command->info('Regiones importadas desde JSON correctamente.');
     }
 }

@@ -2,32 +2,55 @@
 
 namespace Database\Seeders;
 
-
-use App\Models\User;
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Role;
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 
 class RolSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        // 1. Creamos Roles
-        $adminRole = Role::create(['name' => 'admin']);
-        $gestorRole = Role::create(['name' => 'gestor']);
+        // 1. Creamos los roles esenciales para el Congreso de la Sección 56
+        $adminRole = Role::firstOrCreate(['name' => 'admin']);
+        $capturistaRole = Role::firstOrCreate(['name' => 'capturista']);
+        $dictaminadorRole = Role::firstOrCreate(['name' => 'dictaminador']);
+        $operadorRole = Role::firstOrCreate(['name' => 'operador_entrada']);
 
-        // 2. Creamos Usuarios
-        $admin = User::find(1); // Asumiendo que el primer usuario es el admin
-        $admin->assignRole($adminRole);
+        // 2. Buscamos o asignamos el rol al primer usuario (Administrador general)
+        $admin = User::find(1);
+        if ($admin) {
+            $admin->assignRole($adminRole);
+        }
 
-        // 3. Crear un usuario de prueba (Gestor)
-        $gestor = User::factory()->create([
-            'name' => 'Usuario Gestor',
-            'email' => 'gestor@email.com',
-            'password' => bcrypt('password2026'),
-        ]);
-        $gestor->assignRole($gestorRole);    
+        // 3. Crear un usuario de prueba para la Comisión Dictaminadora
+        $dictaminador = User::firstOrCreate(
+            ['email' => 'dictaminador@email.com'],
+            [
+                'name' => 'Comisión Dictaminadora',
+                'password' => Hash::make('password2026'),
+            ]
+        );
+        $dictaminador->assignRole($dictaminadorRole);
+
+        // 4. Crear un usuario de prueba para Captura
+        $capturista = User::firstOrCreate(
+            ['email' => 'capturista@email.com'],
+            [
+                'name' => 'Capturista Seccional',
+                'password' => Hash::make('password2026'),
+            ]
+        );
+        $capturista->assignRole($capturistaRole);
+        
+        // 5. Crear un usuario de prueba para la Mesa de Entrada (Check-in)
+        $operador = User::firstOrCreate(
+            ['email' => 'mesaentrada@email.com'],
+            [
+                'name' => 'Operador Mesa de Entrada',
+                'password' => Hash::make('password2026'),
+            ]
+        );
+        $operador->assignRole($operadorRole);
     }
 }

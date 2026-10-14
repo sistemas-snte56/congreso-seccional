@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "nombre": "REGIÓN I - TANTOYUCA"
+    },
+    {
+        "id": "2",
+        "nombre": "REGIÓN II - TUXPAN"
+    },
+    {
+        "id": "3",
+        "nombre": "REGIÓN III - POZA RICA"
+    },
+    {
+        "id": "4",
+        "nombre": "REGIÓN IV - MARTÍNEZ DE LA TORRE"
+    },
+    {
+        "id": "5",
+        "nombre": "REGIÓN V - XALAPA"
+    },
+    {
+        "id": "6",
+        "nombre": "REGIÓN VI - VERACRUZ"
+    },
+    {
+        "id": "7",
+        "nombre": "REGIÓN VII - CORDOBA"
+    },
+    {
+        "id": "8",
+        "nombre": "REGIÓN VIII - ORIZABA"
+    },
+    {
+        "id": "9",
+        "nombre": "REGIÓN IX - COSAMALOAPAN"
+    },
+    {
+        "id": "10",
+        "nombre": "REGIÓN X - SAN ANDRES TUXTLA"
+    },
+    {
+        "id": "11",
+        "nombre": "REGIÓN XI - MINATITLÁN"
+    }
+]

@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Nivel;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\File;
 
 class NivelSeeder extends Seeder
 {
@@ -12,26 +13,21 @@ class NivelSeeder extends Seeder
      */
     public function run(): void
     {
-        $path = database_path('seeders/data/niveles.csv');
+        $path = database_path('seeders/data/niveles.json');
 
-        if (!file_exists($path)) {
-            $this->command->warn('El archivo niveles.csv no fue encontrado.');
+        if (!File::exists($path)) {
+            $this->command->warn('El archivo niveles.json no fue encontrado.');
             return;
         }
 
-        $niveles = array_map('str_getcsv', file($path));
+        // Leer y decodificar el JSON automáticamente a array de PHP
+        $niveles = File::json($path);
 
-        foreach ($niveles as $index => $row) {
-            if ($index === 0) continue; // Omitir cabecera
-
-            Nivel::updateOrCreate(
-                ['id' => $row[0]],
-                [
-                    'nombre' => $row[1],
-                ]
-            );
+        // Insertar en bloques de 500 para máximo rendimiento
+        foreach (array_chunk($niveles, 500) as $chunk) {
+            Nivel::upsert($chunk, ['id'], ['nombre']);
         }
 
-        $this->command->info('Niveles importadas correctamente.');
+        $this->command->info('Niveles importados desde JSON correctamente.');
     }
 }

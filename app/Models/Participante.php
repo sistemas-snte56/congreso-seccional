@@ -2,13 +2,14 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Str;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Participante extends Model
 {
-    protected $table = 'participantes';
+    protected $table = 'presuntos_delegados';
 
     protected $fillable = [
         'nombres',
@@ -21,11 +22,15 @@ class Participante extends Model
         'numero_personal',
         'uudd',
         'folio',
-        'codigo_qr',
+        'acta_asamblea_path',
+        'codigo_qr_token',
         'delegacion_id',
         'created_by',
         'status',
-        'descargado_at',
+        'motivo_rechazo_observacion',
+        'dictaminado_at',
+        'asistencia_plenaria',
+        'checkin_at',
     ];
 
     /**
@@ -36,8 +41,40 @@ class Participante extends Model
         return $this->belongsTo(Delegacion::class, 'delegacion_id');
     }
 
+    protected function nombre(): Attribute
+    {
+        return Attribute::make(
+            // Al guardar o actualizar, convierte automáticamente a mayúsculas UTF-8
+            set: fn (string $value) => mb_strtoupper(trim($value), 'UTF-8'),
+        );
+    } 
+
+    protected function apellidoPaterno(): Attribute
+    {
+        return Attribute::make(
+            // Al guardar o actualizar, convierte automáticamente a mayúsculas UTF-8
+            set: fn (string $value) => mb_strtoupper(trim($value), 'UTF-8'),
+        );
+    }
+
+    protected function apellidoMaterno(): Attribute
+    {
+        return Attribute::make(
+            // Al guardar o actualizar, convierte automáticamente a mayúsculas UTF-8
+            set: fn (string $value) => mb_strtoupper(trim($value), 'UTF-8'),
+        );
+    }
+
+    protected function rfc(): Attribute
+    {
+        return Attribute::make(
+            // Al guardar o actualizar, convierte automáticamente a mayúsculas UTF-8
+            set: fn (string $value) => mb_strtoupper(trim($value), 'UTF-8'),
+        );
+    }
+
     /**
-     * Relacionamos el usuario que creo el registro de los participantes
+     * Relacionamos el usuario que creo el registro de los presuntos_delegados
      */
     public function creador() : BelongsTo
     {
@@ -77,7 +114,7 @@ class Participante extends Model
             // 3. Generar Folio ÚNICO con reintento automático
             $year = now()->format('Y');
             do {
-                $nuevoFolio = "SNTE56-CPM-{$year}-" . strtoupper(bin2hex(random_bytes(3)));
+                $nuevoFolio = "SNTE56-CNE-{$year}-" . strtoupper(bin2hex(random_bytes(3)));
                 // Verificamos si este folio ya existe en la tabla
                 $existe = static::where('folio', $nuevoFolio)->exists();
             } while ($existe);
@@ -92,5 +129,5 @@ class Participante extends Model
     protected $casts = [
         'descargado_at' => 'datetime',
     ];
-
+   
 }

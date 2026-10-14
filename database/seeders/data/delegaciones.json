@@ -1,0 +1,1724 @@
+[
+    {
+        "id": "2",
+        "region_id": "1",
+        "delegacion": "D-II-59",
+        "nivel_id": "36",
+        "sede": "PANUCO"
+    },
+    {
+        "id": "3",
+        "region_id": "2",
+        "delegacion": "D-III-13",
+        "nivel_id": "19",
+        "sede": "TUXPAN"
+    },
+    {
+        "id": "4",
+        "region_id": "2",
+        "delegacion": "D-II-20",
+        "nivel_id": "39",
+        "sede": "TUXPAN"
+    },
+    {
+        "id": "5",
+        "region_id": "4",
+        "delegacion": "D-I-77",
+        "nivel_id": "35",
+        "sede": "JUCHIQUE DE FERRER"
+    },
+    {
+        "id": "6",
+        "region_id": "2",
+        "delegacion": "D-I-94",
+        "nivel_id": "35",
+        "sede": "TAMIAHUA"
+    },
+    {
+        "id": "7",
+        "region_id": "6",
+        "delegacion": "D-I-08",
+        "nivel_id": "35",
+        "sede": "CARDEL"
+    },
+    {
+        "id": "8",
+        "region_id": "2",
+        "delegacion": "D-I-09",
+        "nivel_id": "35",
+        "sede": "CERRO AZUL"
+    },
+    {
+        "id": "9",
+        "region_id": "2",
+        "delegacion": "D-II-22",
+        "nivel_id": "39",
+        "sede": "NARANJOS"
+    },
+    {
+        "id": "10",
+        "region_id": "7",
+        "delegacion": "D-II-31",
+        "nivel_id": "39",
+        "sede": "COSCOMATEPEC"
+    },
+    {
+        "id": "11",
+        "region_id": "1",
+        "delegacion": "D-II-35",
+        "nivel_id": "39",
+        "sede": "TANTOYUCA"
+    },
+    {
+        "id": "12",
+        "region_id": "2",
+        "delegacion": "D-II-53",
+        "nivel_id": "22",
+        "sede": "TUXPAN"
+    },
+    {
+        "id": "13",
+        "region_id": "2",
+        "delegacion": "D-I-57",
+        "nivel_id": "35",
+        "sede": "TUXPAN"
+    },
+    {
+        "id": "14",
+        "region_id": "2",
+        "delegacion": "D-I-35",
+        "nivel_id": "35",
+        "sede": "NARANJOS"
+    },
+    {
+        "id": "15",
+        "region_id": "2",
+        "delegacion": "D-I-19",
+        "nivel_id": "35",
+        "sede": "CHONTLA"
+    },
+    {
+        "id": "16",
+        "region_id": "2",
+        "delegacion": "D-I-38",
+        "nivel_id": "35",
+        "sede": "OZULUAMA"
+    },
+    {
+        "id": "17",
+        "region_id": "1",
+        "delegacion": "D-I-71",
+        "nivel_id": "35",
+        "sede": "BENITO JUAREZ"
+    },
+    {
+        "id": "18",
+        "region_id": "2",
+        "delegacion": "D-I-80",
+        "nivel_id": "34",
+        "sede": "TUXPAN"
+    },
+    {
+        "id": "19",
+        "region_id": "1",
+        "delegacion": "D-II-50",
+        "nivel_id": "39",
+        "sede": "TEMPOAL"
+    },
+    {
+        "id": "20",
+        "region_id": "4",
+        "delegacion": "D-II-34",
+        "nivel_id": "39",
+        "sede": "MISANTLA"
+    },
+    {
+        "id": "21",
+        "region_id": "5",
+        "delegacion": "D-I-60",
+        "nivel_id": "34",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "22",
+        "region_id": "6",
+        "delegacion": "D-I-43",
+        "nivel_id": "35",
+        "sede": "PIEDRAS NEGRAS"
+    },
+    {
+        "id": "23",
+        "region_id": "4",
+        "delegacion": "D-I-93",
+        "nivel_id": "35",
+        "sede": "VEGA DE LA TORRE"
+    },
+    {
+        "id": "24",
+        "region_id": "4",
+        "delegacion": "D-III-15",
+        "nivel_id": "19",
+        "sede": "MARTINEZ DE LA TORRE"
+    },
+    {
+        "id": "25",
+        "region_id": "9",
+        "delegacion": "D-II-12",
+        "nivel_id": "37",
+        "sede": "TLACOTALPAN"
+    },
+    {
+        "id": "26",
+        "region_id": "4",
+        "delegacion": "D-I-74",
+        "nivel_id": "35",
+        "sede": "TLAPACOYAN"
+    },
+    {
+        "id": "27",
+        "region_id": "4",
+        "delegacion": "D-II-32",
+        "nivel_id": "39",
+        "sede": "MARTINEZ DE LA TORRE"
+    },
+    {
+        "id": "28",
+        "region_id": "4",
+        "delegacion": "D-II-42",
+        "nivel_id": "40",
+        "sede": "MARTINEZ DE LA TORRE"
+    },
+    {
+        "id": "29",
+        "region_id": "1",
+        "delegacion": "D-II-37",
+        "nivel_id": "40",
+        "sede": "TANTOYUCA"
+    },
+    {
+        "id": "30",
+        "region_id": "4",
+        "delegacion": "D-II-48",
+        "nivel_id": "39",
+        "sede": "SAN RAFAEL"
+    },
+    {
+        "id": "31",
+        "region_id": "4",
+        "delegacion": "D-I-30",
+        "nivel_id": "35",
+        "sede": "MARTINEZ DE LA TORRE"
+    },
+    {
+        "id": "32",
+        "region_id": "4",
+        "delegacion": "D-I-33",
+        "nivel_id": "35",
+        "sede": "MISANTLA"
+    },
+    {
+        "id": "33",
+        "region_id": "9",
+        "delegacion": "D-II-14",
+        "nivel_id": "6",
+        "sede": "ALVARADO"
+    },
+    {
+        "id": "34",
+        "region_id": "6",
+        "delegacion": "D-I-58",
+        "nivel_id": "35",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "35",
+        "region_id": "6",
+        "delegacion": "D-III-18",
+        "nivel_id": "19",
+        "sede": "CARDEL"
+    },
+    {
+        "id": "36",
+        "region_id": "9",
+        "delegacion": "D-I-79",
+        "nivel_id": "34",
+        "sede": "ALVARADO"
+    },
+    {
+        "id": "37",
+        "region_id": "7",
+        "delegacion": "D-I-23",
+        "nivel_id": "35",
+        "sede": "HUATUSCO"
+    },
+    {
+        "id": "38",
+        "region_id": "5",
+        "delegacion": "D-II-58",
+        "nivel_id": "39",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "39",
+        "region_id": "7",
+        "delegacion": "D-I-66",
+        "nivel_id": "27",
+        "sede": "CORDOBA"
+    },
+    {
+        "id": "40",
+        "region_id": "4",
+        "delegacion": "D-I-88",
+        "nivel_id": "34",
+        "sede": "MARTINEZ DE LA TORRE"
+    },
+    {
+        "id": "41",
+        "region_id": "8",
+        "delegacion": "D-I-78",
+        "nivel_id": "34",
+        "sede": "ORIZABA"
+    },
+    {
+        "id": "42",
+        "region_id": "10",
+        "delegacion": "D-I-48",
+        "nivel_id": "35",
+        "sede": "SAN ANDRES TUXTLA"
+    },
+    {
+        "id": "43",
+        "region_id": "7",
+        "delegacion": "D-I-36",
+        "nivel_id": "35",
+        "sede": "OMEALCA"
+    },
+    {
+        "id": "44",
+        "region_id": "7",
+        "delegacion": "D-I-14",
+        "nivel_id": "30",
+        "sede": "CORDOBA"
+    },
+    {
+        "id": "45",
+        "region_id": "10",
+        "delegacion": "D-I-25",
+        "nivel_id": "35",
+        "sede": "ISLA"
+    },
+    {
+        "id": "46",
+        "region_id": "9",
+        "delegacion": "D-II-29",
+        "nivel_id": "32",
+        "sede": "TLACOTALPAN"
+    },
+    {
+        "id": "47",
+        "region_id": "10",
+        "delegacion": "D-II-16",
+        "nivel_id": "39",
+        "sede": "SAN ANDRES TUXTLA"
+    },
+    {
+        "id": "48",
+        "region_id": "5",
+        "delegacion": "D-I-84",
+        "nivel_id": "38",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "49",
+        "region_id": "10",
+        "delegacion": "D-I-45",
+        "nivel_id": "35",
+        "sede": "PLAYA VICENTE"
+    },
+    {
+        "id": "50",
+        "region_id": "10",
+        "delegacion": "D-II-28",
+        "nivel_id": "39",
+        "sede": "ISLA"
+    },
+    {
+        "id": "51",
+        "region_id": "9",
+        "delegacion": "D-II-10",
+        "nivel_id": "37",
+        "sede": "ALVARADO"
+    },
+    {
+        "id": "52",
+        "region_id": "9",
+        "delegacion": "D-I-63",
+        "nivel_id": "34",
+        "sede": "COSAMALOAPAN"
+    },
+    {
+        "id": "53",
+        "region_id": "10",
+        "delegacion": "D-I-29",
+        "nivel_id": "35",
+        "sede": "LERDO DE TEJADA"
+    },
+    {
+        "id": "54",
+        "region_id": "10",
+        "delegacion": "D-I-89",
+        "nivel_id": "34",
+        "sede": "ISLA"
+    },
+    {
+        "id": "55",
+        "region_id": "10",
+        "delegacion": "D-II-51",
+        "nivel_id": "39",
+        "sede": "SANTIAGO TUXTLA"
+    },
+    {
+        "id": "56",
+        "region_id": "10",
+        "delegacion": "D-I-68",
+        "nivel_id": "35",
+        "sede": "SANTIAGO TUXTLA"
+    },
+    {
+        "id": "57",
+        "region_id": "8",
+        "delegacion": "D-I-37",
+        "nivel_id": "35",
+        "sede": "IXTACZOQUITLAN"
+    },
+    {
+        "id": "58",
+        "region_id": "5",
+        "delegacion": "D-III-04",
+        "nivel_id": "1",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "59",
+        "region_id": "5",
+        "delegacion": "D-II-21",
+        "nivel_id": "39",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "60",
+        "region_id": "7",
+        "delegacion": "D-II-09",
+        "nivel_id": "24",
+        "sede": "CORDOBA"
+    },
+    {
+        "id": "61",
+        "region_id": "5",
+        "delegacion": "D-II-46",
+        "nivel_id": "39",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "62",
+        "region_id": "10",
+        "delegacion": "D-I-41",
+        "nivel_id": "34",
+        "sede": "SAN ANDRES TUXTLA"
+    },
+    {
+        "id": "63",
+        "region_id": "8",
+        "delegacion": "D-I-65",
+        "nivel_id": "35",
+        "sede": "ZONGOLICA"
+    },
+    {
+        "id": "64",
+        "region_id": "8",
+        "delegacion": "D-I-55",
+        "nivel_id": "35",
+        "sede": "SAN JUAN TEXHUACAN"
+    },
+    {
+        "id": "65",
+        "region_id": "8",
+        "delegacion": "D-I-10",
+        "nivel_id": "35",
+        "sede": "CIUDAD MENDOZA"
+    },
+    {
+        "id": "66",
+        "region_id": "8",
+        "delegacion": "D-I-54",
+        "nivel_id": "35",
+        "sede": "TEQUILA"
+    },
+    {
+        "id": "67",
+        "region_id": "5",
+        "delegacion": "D-III-01",
+        "nivel_id": "31",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "68",
+        "region_id": "7",
+        "delegacion": "D-III-11",
+        "nivel_id": "19",
+        "sede": "CORDOBA"
+    },
+    {
+        "id": "69",
+        "region_id": "5",
+        "delegacion": "D-I-05",
+        "nivel_id": "35",
+        "sede": "ALTOTONGA"
+    },
+    {
+        "id": "70",
+        "region_id": "5",
+        "delegacion": "D-I-92",
+        "nivel_id": "20",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "71",
+        "region_id": "1",
+        "delegacion": "D-I-90",
+        "nivel_id": "34",
+        "sede": "TANTOYUCA"
+    },
+    {
+        "id": "72",
+        "region_id": "1",
+        "delegacion": "D-I-87",
+        "nivel_id": "35",
+        "sede": "IXCATEPEC"
+    },
+    {
+        "id": "73",
+        "region_id": "8",
+        "delegacion": "D-II-17",
+        "nivel_id": "40",
+        "sede": "ORIZABA"
+    },
+    {
+        "id": "74",
+        "region_id": "8",
+        "delegacion": "D-II-26",
+        "nivel_id": "39",
+        "sede": "ORIZABA"
+    },
+    {
+        "id": "75",
+        "region_id": "8",
+        "delegacion": "D-I-03",
+        "nivel_id": "35",
+        "sede": "ACULTZINGO"
+    },
+    {
+        "id": "76",
+        "region_id": "9",
+        "delegacion": "D-II-27",
+        "nivel_id": "39",
+        "sede": "TIERRA BLANCA"
+    },
+    {
+        "id": "77",
+        "region_id": "8",
+        "delegacion": "D-III-05",
+        "nivel_id": "19",
+        "sede": "ORIZABA"
+    },
+    {
+        "id": "78",
+        "region_id": "1",
+        "delegacion": "D-I-91",
+        "nivel_id": "34",
+        "sede": "PANUCO"
+    },
+    {
+        "id": "79",
+        "region_id": "1",
+        "delegacion": "D-I-44",
+        "nivel_id": "35",
+        "sede": "PLATON SANCHEZ"
+    },
+    {
+        "id": "80",
+        "region_id": "5",
+        "delegacion": "D-III-16",
+        "nivel_id": "19",
+        "sede": "COATEPEC"
+    },
+    {
+        "id": "81",
+        "region_id": "7",
+        "delegacion": "D-I-64",
+        "nivel_id": "34",
+        "sede": "CORDOBA"
+    },
+    {
+        "id": "82",
+        "region_id": "5",
+        "delegacion": "D-II-38",
+        "nivel_id": "40",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "83",
+        "region_id": "5",
+        "delegacion": "D-II-13",
+        "nivel_id": "32",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "84",
+        "region_id": "1",
+        "delegacion": "D-I-51",
+        "nivel_id": "35",
+        "sede": "TANTOYUCA"
+    },
+    {
+        "id": "85",
+        "region_id": "5",
+        "delegacion": "D-II-15",
+        "nivel_id": "15",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "86",
+        "region_id": "1",
+        "delegacion": "D-I-52",
+        "nivel_id": "35",
+        "sede": "TEMPOAL"
+    },
+    {
+        "id": "87",
+        "region_id": "5",
+        "delegacion": "D-III-08",
+        "nivel_id": "4",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "88",
+        "region_id": "5",
+        "delegacion": "D-II-24",
+        "nivel_id": "42",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "89",
+        "region_id": "6",
+        "delegacion": "D-I-07",
+        "nivel_id": "35",
+        "sede": "BOCA DEL RIO"
+    },
+    {
+        "id": "90",
+        "region_id": "1",
+        "delegacion": "D-I-39",
+        "nivel_id": "35",
+        "sede": "PANUCO"
+    },
+    {
+        "id": "91",
+        "region_id": "1",
+        "delegacion": "D-III-17",
+        "nivel_id": "19",
+        "sede": "TANTOYUCA"
+    },
+    {
+        "id": "92",
+        "region_id": "9",
+        "delegacion": "D-II-43",
+        "nivel_id": "6",
+        "sede": "ALVARADO"
+    },
+    {
+        "id": "93",
+        "region_id": "9",
+        "delegacion": "D-I-06",
+        "nivel_id": "35",
+        "sede": "ALVARADO"
+    },
+    {
+        "id": "94",
+        "region_id": "5",
+        "delegacion": "D-II-03",
+        "nivel_id": "7",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "95",
+        "region_id": "9",
+        "delegacion": "D-I-56",
+        "nivel_id": "35",
+        "sede": "TIERRA BLANCA"
+    },
+    {
+        "id": "96",
+        "region_id": "5",
+        "delegacion": "D-I-81",
+        "nivel_id": "34",
+        "sede": "COATEPEC"
+    },
+    {
+        "id": "97",
+        "region_id": "5",
+        "delegacion": "D-I-61",
+        "nivel_id": "30",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "98",
+        "region_id": "1",
+        "delegacion": "D-I-72",
+        "nivel_id": "35",
+        "sede": "PUEBLO VIEJO"
+    },
+    {
+        "id": "99",
+        "region_id": "5",
+        "delegacion": "D-I-53",
+        "nivel_id": "35",
+        "sede": "TEOCELO"
+    },
+    {
+        "id": "100",
+        "region_id": "5",
+        "delegacion": "D-III-03",
+        "nivel_id": "2",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "101",
+        "region_id": "5",
+        "delegacion": "D-I-11",
+        "nivel_id": "35",
+        "sede": "COATEPEC"
+    },
+    {
+        "id": "102",
+        "region_id": "5",
+        "delegacion": "D-I-34",
+        "nivel_id": "35",
+        "sede": "NAOLINCO"
+    },
+    {
+        "id": "103",
+        "region_id": "5",
+        "delegacion": "D-III-24",
+        "nivel_id": "3",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "104",
+        "region_id": "5",
+        "delegacion": "D-I-75",
+        "nivel_id": "35",
+        "sede": "CARRIZAL"
+    },
+    {
+        "id": "105",
+        "region_id": "5",
+        "delegacion": "D-III-23",
+        "nivel_id": "19",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "106",
+        "region_id": "5",
+        "delegacion": "D-I-20",
+        "nivel_id": "35",
+        "sede": "EMILIANO ZAPATA"
+    },
+    {
+        "id": "107",
+        "region_id": "5",
+        "delegacion": "D-II-04",
+        "nivel_id": "14",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "108",
+        "region_id": "5",
+        "delegacion": "D-IV-18",
+        "nivel_id": "29",
+        "sede": "ALTOTONGA"
+    },
+    {
+        "id": "109",
+        "region_id": "2",
+        "delegacion": "D-IV-09",
+        "nivel_id": "29",
+        "sede": "TUXPAN"
+    },
+    {
+        "id": "110",
+        "region_id": "4",
+        "delegacion": "D-IV-28",
+        "nivel_id": "29",
+        "sede": "MISANTLA"
+    },
+    {
+        "id": "111",
+        "region_id": "4",
+        "delegacion": "D-IV-08",
+        "nivel_id": "29",
+        "sede": "MARTINEZ DE LA TORRE"
+    },
+    {
+        "id": "112",
+        "region_id": "6",
+        "delegacion": "D-IV-05",
+        "nivel_id": "29",
+        "sede": "SOLEDAD DE DOBLADO"
+    },
+    {
+        "id": "113",
+        "region_id": "10",
+        "delegacion": "D-IV-03",
+        "nivel_id": "29",
+        "sede": "SAN ANDRES TUXTLA"
+    },
+    {
+        "id": "114",
+        "region_id": "10",
+        "delegacion": "D-IV-26",
+        "nivel_id": "29",
+        "sede": "ISLA"
+    },
+    {
+        "id": "115",
+        "region_id": "9",
+        "delegacion": "D-IV-06",
+        "nivel_id": "29",
+        "sede": "COSAMALOAPAN"
+    },
+    {
+        "id": "116",
+        "region_id": "8",
+        "delegacion": "D-IV-32",
+        "nivel_id": "29",
+        "sede": "ZONGOLICA"
+    },
+    {
+        "id": "117",
+        "region_id": "8",
+        "delegacion": "D-IV-07",
+        "nivel_id": "29",
+        "sede": "ORIZABA"
+    },
+    {
+        "id": "118",
+        "region_id": "5",
+        "delegacion": "D-IV-17",
+        "nivel_id": "29",
+        "sede": "COATEPEC"
+    },
+    {
+        "id": "119",
+        "region_id": "7",
+        "delegacion": "D-IV-16",
+        "nivel_id": "29",
+        "sede": "CORDOBA"
+    },
+    {
+        "id": "120",
+        "region_id": "9",
+        "delegacion": "D-IV-21",
+        "nivel_id": "29",
+        "sede": "ALVARADO"
+    },
+    {
+        "id": "121",
+        "region_id": "5",
+        "delegacion": "D-IV-02",
+        "nivel_id": "29",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "122",
+        "region_id": "1",
+        "delegacion": "D-IV-13",
+        "nivel_id": "29",
+        "sede": "TANTOYUCA"
+    },
+    {
+        "id": "123",
+        "region_id": "4",
+        "delegacion": "C.T.05",
+        "nivel_id": "25",
+        "sede": "MISANTLA"
+    },
+    {
+        "id": "124",
+        "region_id": "5",
+        "delegacion": "C.T.23",
+        "nivel_id": "12",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "125",
+        "region_id": "4",
+        "delegacion": "C.T.09",
+        "nivel_id": "36",
+        "sede": "SAN RAFAEL"
+    },
+    {
+        "id": "126",
+        "region_id": "8",
+        "delegacion": "C.T.13",
+        "nivel_id": "36",
+        "sede": "CIUDAD MENDOZA"
+    },
+    {
+        "id": "127",
+        "region_id": "4",
+        "delegacion": "C.T.29",
+        "nivel_id": "6",
+        "sede": "MARTINEZ DE LA TORRE"
+    },
+    {
+        "id": "128",
+        "region_id": "10",
+        "delegacion": "C.T.36",
+        "nivel_id": "37",
+        "sede": "SANTIAGO TUXTLA"
+    },
+    {
+        "id": "129",
+        "region_id": "5",
+        "delegacion": "C.T.20",
+        "nivel_id": "5",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "130",
+        "region_id": "5",
+        "delegacion": "C.T.03",
+        "nivel_id": "13",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "131",
+        "region_id": "5",
+        "delegacion": "C.T.21",
+        "nivel_id": "9",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "132",
+        "region_id": "8",
+        "delegacion": "C.T.14",
+        "nivel_id": "6",
+        "sede": "ORIZABA"
+    },
+    {
+        "id": "133",
+        "region_id": "6",
+        "delegacion": "C.T.10",
+        "nivel_id": "36",
+        "sede": "SOLEDAD DE DOBLADO"
+    },
+    {
+        "id": "134",
+        "region_id": "8",
+        "delegacion": "C.T.40",
+        "nivel_id": "39",
+        "sede": "ZONGOLICA"
+    },
+    {
+        "id": "135",
+        "region_id": "6",
+        "delegacion": "C.T.32",
+        "nivel_id": "36",
+        "sede": "CARDEL"
+    },
+    {
+        "id": "136",
+        "region_id": "1",
+        "delegacion": "C.T.07",
+        "nivel_id": "36",
+        "sede": "IXCATEPEC"
+    },
+    {
+        "id": "137",
+        "region_id": "6",
+        "delegacion": "C.T.31",
+        "nivel_id": "42",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "138",
+        "region_id": "5",
+        "delegacion": "C.T.33",
+        "nivel_id": "33",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "139",
+        "region_id": "5",
+        "delegacion": "D-II-55",
+        "nivel_id": "39",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "140",
+        "region_id": "5",
+        "delegacion": "C.T.24",
+        "nivel_id": "17",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "141",
+        "region_id": "11",
+        "delegacion": "D-I-28",
+        "nivel_id": "35",
+        "sede": "JESUS CARRANZA"
+    },
+    {
+        "id": "142",
+        "region_id": "11",
+        "delegacion": "D-I-02",
+        "nivel_id": "35",
+        "sede": "ACAYUCAN"
+    },
+    {
+        "id": "143",
+        "region_id": "3",
+        "delegacion": "D-II-25",
+        "nivel_id": "39",
+        "sede": "ESPINAL"
+    },
+    {
+        "id": "144",
+        "region_id": "11",
+        "delegacion": "D-I-31",
+        "nivel_id": "27",
+        "sede": "MINATITLAN"
+    },
+    {
+        "id": "145",
+        "region_id": "11",
+        "delegacion": "D-I-17",
+        "nivel_id": "35",
+        "sede": "COSOLEACAQUE"
+    },
+    {
+        "id": "146",
+        "region_id": "3",
+        "delegacion": "D-I-26",
+        "nivel_id": "35",
+        "sede": "IXHUATLAN DE MADERO"
+    },
+    {
+        "id": "147",
+        "region_id": "1",
+        "delegacion": "D-II-01",
+        "nivel_id": "32",
+        "sede": "ACECECA"
+    },
+    {
+        "id": "148",
+        "region_id": "3",
+        "delegacion": "D-II-54",
+        "nivel_id": "40",
+        "sede": "ALAMO"
+    },
+    {
+        "id": "149",
+        "region_id": "11",
+        "delegacion": "D-I-01",
+        "nivel_id": "35",
+        "sede": "ACAYUCAN"
+    },
+    {
+        "id": "150",
+        "region_id": "3",
+        "delegacion": "D-I-83",
+        "nivel_id": "34",
+        "sede": "POZA RICA"
+    },
+    {
+        "id": "151",
+        "region_id": "7",
+        "delegacion": "D-III-21",
+        "nivel_id": "19",
+        "sede": "HUATUSCO"
+    },
+    {
+        "id": "152",
+        "region_id": "7",
+        "delegacion": "D-I-22",
+        "nivel_id": "35",
+        "sede": "FORTIN"
+    },
+    {
+        "id": "153",
+        "region_id": "11",
+        "delegacion": "D-I-86",
+        "nivel_id": "18",
+        "sede": "ACAYUCAN"
+    },
+    {
+        "id": "154",
+        "region_id": "3",
+        "delegacion": "D-I-69",
+        "nivel_id": "35",
+        "sede": "TIHUATLAN"
+    },
+    {
+        "id": "155",
+        "region_id": "7",
+        "delegacion": "D-I-16",
+        "nivel_id": "35",
+        "sede": "COSCOMATEPEC"
+    },
+    {
+        "id": "156",
+        "region_id": "3",
+        "delegacion": "D-II-47",
+        "nivel_id": "39",
+        "sede": "PAPANTLA"
+    },
+    {
+        "id": "157",
+        "region_id": "3",
+        "delegacion": "D-III-12",
+        "nivel_id": "19",
+        "sede": "POZA RICA"
+    },
+    {
+        "id": "158",
+        "region_id": "11",
+        "delegacion": "D-II-44",
+        "nivel_id": "39",
+        "sede": "ACAYUCAN"
+    },
+    {
+        "id": "159",
+        "region_id": "11",
+        "delegacion": "D-II-52",
+        "nivel_id": "40",
+        "sede": "COATZACOALCOS"
+    },
+    {
+        "id": "160",
+        "region_id": "11",
+        "delegacion": "D-II-23",
+        "nivel_id": "36",
+        "sede": "COATZACOALCOS"
+    },
+    {
+        "id": "161",
+        "region_id": "3",
+        "delegacion": "D-I-24",
+        "nivel_id": "35",
+        "sede": "HUAYACOCOTLA"
+    },
+    {
+        "id": "162",
+        "region_id": "3",
+        "delegacion": "D-I-40",
+        "nivel_id": "35",
+        "sede": "PAPANTLA"
+    },
+    {
+        "id": "163",
+        "region_id": "3",
+        "delegacion": "D-I-21",
+        "nivel_id": "35",
+        "sede": "ESPINAL"
+    },
+    {
+        "id": "164",
+        "region_id": "3",
+        "delegacion": "D-I-85",
+        "nivel_id": "34",
+        "sede": "PAPANTLA"
+    },
+    {
+        "id": "165",
+        "region_id": "3",
+        "delegacion": "D-I-46",
+        "nivel_id": "35",
+        "sede": "POZA RICA"
+    },
+    {
+        "id": "166",
+        "region_id": "3",
+        "delegacion": "D-I-67",
+        "nivel_id": "35",
+        "sede": "GUTIERREZ ZAMORA"
+    },
+    {
+        "id": "167",
+        "region_id": "11",
+        "delegacion": "D-I-12",
+        "nivel_id": "27",
+        "sede": "COATZACOALCOS"
+    },
+    {
+        "id": "168",
+        "region_id": "3",
+        "delegacion": "D-II-41",
+        "nivel_id": "40",
+        "sede": "POZA RICA"
+    },
+    {
+        "id": "169",
+        "region_id": "3",
+        "delegacion": "D-II-19",
+        "nivel_id": "39",
+        "sede": "ALAMO"
+    },
+    {
+        "id": "170",
+        "region_id": "11",
+        "delegacion": "D-I-49",
+        "nivel_id": "35",
+        "sede": "SAYULA DE ALEMAN"
+    },
+    {
+        "id": "171",
+        "region_id": "11",
+        "delegacion": "D-I-59",
+        "nivel_id": "34",
+        "sede": "ACAYUCAN"
+    },
+    {
+        "id": "172",
+        "region_id": "11",
+        "delegacion": "D-II-45",
+        "nivel_id": "39",
+        "sede": "COATZACOALCOS"
+    },
+    {
+        "id": "173",
+        "region_id": "11",
+        "delegacion": "D-III-22",
+        "nivel_id": "19",
+        "sede": "COATZACOALCOS"
+    },
+    {
+        "id": "174",
+        "region_id": "11",
+        "delegacion": "D-I-32",
+        "nivel_id": "30",
+        "sede": "MINATITLAN"
+    },
+    {
+        "id": "175",
+        "region_id": "1",
+        "delegacion": "D-I-18",
+        "nivel_id": "35",
+        "sede": "CHICONTEPEC"
+    },
+    {
+        "id": "176",
+        "region_id": "3",
+        "delegacion": "D-II-57",
+        "nivel_id": "39",
+        "sede": "HUAYACOCOTLA"
+    },
+    {
+        "id": "177",
+        "region_id": "7",
+        "delegacion": "D-I-76",
+        "nivel_id": "35",
+        "sede": "TOTUTLA"
+    },
+    {
+        "id": "178",
+        "region_id": "7",
+        "delegacion": "D-I-42",
+        "nivel_id": "35",
+        "sede": "PASO DEL MACHO"
+    },
+    {
+        "id": "179",
+        "region_id": "9",
+        "delegacion": "D-I-15",
+        "nivel_id": "35",
+        "sede": "COSAMALOAPAN"
+    },
+    {
+        "id": "180",
+        "region_id": "9",
+        "delegacion": "D-III-02",
+        "nivel_id": "19",
+        "sede": "TIERRA BLANCA"
+    },
+    {
+        "id": "181",
+        "region_id": "2",
+        "delegacion": "D-IV-12",
+        "nivel_id": "29",
+        "sede": "NARANJOS"
+    },
+    {
+        "id": "182",
+        "region_id": "11",
+        "delegacion": "D-IV-25",
+        "nivel_id": "29",
+        "sede": "MINATITLAN"
+    },
+    {
+        "id": "183",
+        "region_id": "11",
+        "delegacion": "D-IV-19",
+        "nivel_id": "29",
+        "sede": "COATZACOALCOS"
+    },
+    {
+        "id": "184",
+        "region_id": "3",
+        "delegacion": "D-IV-10",
+        "nivel_id": "29",
+        "sede": "POZA RICA"
+    },
+    {
+        "id": "185",
+        "region_id": "3",
+        "delegacion": "D-IV-31",
+        "nivel_id": "29",
+        "sede": "TIHUATLAN"
+    },
+    {
+        "id": "186",
+        "region_id": "3",
+        "delegacion": "D-IV-15",
+        "nivel_id": "29",
+        "sede": "PAPANTLA"
+    },
+    {
+        "id": "187",
+        "region_id": "3",
+        "delegacion": "C.T.01",
+        "nivel_id": "6",
+        "sede": "PAPANTLA"
+    },
+    {
+        "id": "188",
+        "region_id": "11",
+        "delegacion": "C.T.30",
+        "nivel_id": "37",
+        "sede": "MINATITLÁN"
+    },
+    {
+        "id": "189",
+        "region_id": "11",
+        "delegacion": "C.T.25",
+        "nivel_id": "19",
+        "sede": "ACAYUCAN"
+    },
+    {
+        "id": "190",
+        "region_id": "11",
+        "delegacion": "C.T.26",
+        "nivel_id": "21",
+        "sede": "ACAYUCAN"
+    },
+    {
+        "id": "228",
+        "region_id": "2",
+        "delegacion": "C.T.08",
+        "nivel_id": "42",
+        "sede": "TUXPAN"
+    },
+    {
+        "id": "237",
+        "region_id": "2",
+        "delegacion": "D-IV-36",
+        "nivel_id": "29",
+        "sede": "TAMIAHUA"
+    },
+    {
+        "id": "238",
+        "region_id": "5",
+        "delegacion": "D-I-62",
+        "nivel_id": "27",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "239",
+        "region_id": "5",
+        "delegacion": "D-III-14",
+        "nivel_id": "19",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "240",
+        "region_id": "5",
+        "delegacion": "D-II-02",
+        "nivel_id": "10",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "241",
+        "region_id": "5",
+        "delegacion": "D-III-09",
+        "nivel_id": "3",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "242",
+        "region_id": "5",
+        "delegacion": "D-II-56",
+        "nivel_id": "8",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "243",
+        "region_id": "5",
+        "delegacion": "D-I-47",
+        "nivel_id": "35",
+        "sede": "LAS VIGAS DE RAMIREZ"
+    },
+    {
+        "id": "245",
+        "region_id": "9",
+        "delegacion": "D-III-07",
+        "nivel_id": "19",
+        "sede": "ALVARADO"
+    },
+    {
+        "id": "253",
+        "region_id": "6",
+        "delegacion": "D-II-05",
+        "nivel_id": "39",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "273",
+        "region_id": "9",
+        "delegacion": "D-II-30",
+        "nivel_id": "39",
+        "sede": "COSAMALOAPAN"
+    },
+    {
+        "id": "274",
+        "region_id": "1",
+        "delegacion": "D-IV-23",
+        "nivel_id": "29",
+        "sede": "PANUCO"
+    },
+    {
+        "id": "276",
+        "region_id": "11",
+        "delegacion": "D-I-82",
+        "nivel_id": "34",
+        "sede": "MINATITLÁN"
+    },
+    {
+        "id": "277",
+        "region_id": "7",
+        "delegacion": "C.T.02",
+        "nivel_id": "36",
+        "sede": "HUATUSCO"
+    },
+    {
+        "id": "280",
+        "region_id": "1",
+        "delegacion": "D-II-18",
+        "nivel_id": "39",
+        "sede": "CHICONTEPEC"
+    },
+    {
+        "id": "281",
+        "region_id": "3",
+        "delegacion": "D-I-04",
+        "nivel_id": "35",
+        "sede": "ALAMO"
+    },
+    {
+        "id": "282",
+        "region_id": "10",
+        "delegacion": "D-III-19",
+        "nivel_id": "19",
+        "sede": "SAN ANDRES TUXTLA"
+    },
+    {
+        "id": "284",
+        "region_id": "6",
+        "delegacion": "C.T.17",
+        "nivel_id": "41",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "285",
+        "region_id": "6",
+        "delegacion": "D-II-40",
+        "nivel_id": "40",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "286",
+        "region_id": "6",
+        "delegacion": "D-II-49",
+        "nivel_id": "36",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "287",
+        "region_id": "1",
+        "delegacion": "D-IV-11",
+        "nivel_id": "29",
+        "sede": "TEMPOAL"
+    },
+    {
+        "id": "288",
+        "region_id": "1",
+        "delegacion": "D-IV-22",
+        "nivel_id": "29",
+        "sede": "CHICONTEPEC"
+    },
+    {
+        "id": "289",
+        "region_id": "1",
+        "delegacion": "D-IV-35",
+        "nivel_id": "29",
+        "sede": "PUEBLO VIEJO"
+    },
+    {
+        "id": "290",
+        "region_id": "1",
+        "delegacion": "D-IV-37",
+        "nivel_id": "29",
+        "sede": "PLATON SANCHEZ"
+    },
+    {
+        "id": "291",
+        "region_id": "3",
+        "delegacion": "D-II-07",
+        "nivel_id": "37",
+        "sede": "POZA RICA"
+    },
+    {
+        "id": "292",
+        "region_id": "3",
+        "delegacion": "D-II-33",
+        "nivel_id": "39",
+        "sede": "POZA RICA"
+    },
+    {
+        "id": "293",
+        "region_id": "3",
+        "delegacion": "D-IV-14",
+        "nivel_id": "29",
+        "sede": "ALAMO"
+    },
+    {
+        "id": "294",
+        "region_id": "3",
+        "delegacion": "D-IV-24",
+        "nivel_id": "29",
+        "sede": "GUTIERREZ ZAMORA"
+    },
+    {
+        "id": "295",
+        "region_id": "5",
+        "delegacion": "C.T.18",
+        "nivel_id": "23",
+        "sede": "XALAPA"
+    },
+    {
+        "id": "296",
+        "region_id": "6",
+        "delegacion": "C.T.06",
+        "nivel_id": "6",
+        "sede": "CARDEL"
+    },
+    {
+        "id": "297",
+        "region_id": "6",
+        "delegacion": "C.T.11",
+        "nivel_id": "16",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "298",
+        "region_id": "6",
+        "delegacion": "C.T.15",
+        "nivel_id": "11",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "299",
+        "region_id": "6",
+        "delegacion": "C.T.22",
+        "nivel_id": "26",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "300",
+        "region_id": "6",
+        "delegacion": "D-II-06",
+        "nivel_id": "28",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "301",
+        "region_id": "6",
+        "delegacion": "D-III-06",
+        "nivel_id": "19",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "302",
+        "region_id": "6",
+        "delegacion": "D-IV-01",
+        "nivel_id": "29",
+        "sede": "VERACRUZ"
+    },
+    {
+        "id": "303",
+        "region_id": "6",
+        "delegacion": "D-IV-27",
+        "nivel_id": "29",
+        "sede": "BOCA DEL RIO"
+    },
+    {
+        "id": "304",
+        "region_id": "6",
+        "delegacion": "D-IV-30",
+        "nivel_id": "29",
+        "sede": "PIEDRAS NEGRAS"
+    },
+    {
+        "id": "305",
+        "region_id": "8",
+        "delegacion": "D-I-27",
+        "nivel_id": "35",
+        "sede": "IXTACZOQUITLAN"
+    },
+    {
+        "id": "306",
+        "region_id": "8",
+        "delegacion": "D-II-36",
+        "nivel_id": "37",
+        "sede": "ORIZABA"
+    },
+    {
+        "id": "307",
+        "region_id": "8",
+        "delegacion": "D-III-10",
+        "nivel_id": "19",
+        "sede": "CIUDAD MENDOZA"
+    },
+    {
+        "id": "308",
+        "region_id": "8",
+        "delegacion": "D-IV-04",
+        "nivel_id": "29",
+        "sede": "CIUDAD MENDOZA"
+    },
+    {
+        "id": "309",
+        "region_id": "9",
+        "delegacion": "D-I-70",
+        "nivel_id": "35",
+        "sede": "TRES VALLES"
+    },
+    {
+        "id": "310",
+        "region_id": "9",
+        "delegacion": "D-II-08",
+        "nivel_id": "37",
+        "sede": "COSAMALOAPAN"
+    },
+    {
+        "id": "311",
+        "region_id": "9",
+        "delegacion": "D-III-20",
+        "nivel_id": "19",
+        "sede": "COSAMALOAPAN"
+    },
+    {
+        "id": "312",
+        "region_id": "9",
+        "delegacion": "D-IV-29",
+        "nivel_id": "29",
+        "sede": "TIERRA BLANCA"
+    },
+    {
+        "id": "313",
+        "region_id": "9",
+        "delegacion": "D-IV-34",
+        "nivel_id": "29",
+        "sede": "TLACOTALPAN"
+    },
+    {
+        "id": "314",
+        "region_id": "11",
+        "delegacion": "D-I-13",
+        "nivel_id": "35",
+        "sede": "COATZACOALCOS"
+    },
+    {
+        "id": "315",
+        "region_id": "11",
+        "delegacion": "D-II-11",
+        "nivel_id": "36",
+        "sede": "COATZACOALCOS"
+    },
+    {
+        "id": "316",
+        "region_id": "11",
+        "delegacion": "D-II-39",
+        "nivel_id": "40",
+        "sede": "ACAYUCAN"
+    },
+    {
+        "id": "317",
+        "region_id": "11",
+        "delegacion": "D-IV-20",
+        "nivel_id": "29",
+        "sede": "ACAYUCAN"
+    },
+    {
+        "id": "318",
+        "region_id": "6",
+        "delegacion": "D-I-50",
+        "nivel_id": "35",
+        "sede": "SOLEDAD DE DOBLADO"
+    },
+    {
+        "id": "332",
+        "region_id": "6",
+        "delegacion": "D-I-73",
+        "nivel_id": "35",
+        "sede": "PASO DE OVEJAS"
+    },
+    {
+        "id": "333",
+        "region_id": "5",
+        "delegacion": "C.T.04",
+        "nivel_id": "39",
+        "sede": "JACARANDAS"
+    },
+    {
+        "id": "334",
+        "region_id": "7",
+        "delegacion": "C.T.12",
+        "nivel_id": "39",
+        "sede": "HUATUSCO"
+    },
+    {
+        "id": "335",
+        "region_id": "7",
+        "delegacion": "C.T.16",
+        "nivel_id": "39",
+        "sede": "CóRDOBA"
+    },
+    {
+        "id": "336",
+        "region_id": "6",
+        "delegacion": "D-I-95",
+        "nivel_id": "35",
+        "sede": "MANLIO FABIO ALTAMIRANO"
+    }
+]

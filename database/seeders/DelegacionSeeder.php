@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Delegacion;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\File;
 
 class DelegacionSeeder extends Seeder
 {
@@ -12,31 +13,21 @@ class DelegacionSeeder extends Seeder
      */
     public function run(): void
     {
-        $path = database_path('seeders/data/delegaciones.csv');
+        $path = database_path('seeders/data/delegaciones.json');
 
-        if (!file_exists($path)) {
-            $this->command->warn('El archivo delegaciones.csv no fue encontrado.');
+        if (!File::exists($path)) {
+            $this->command->warn('El archivo delegaciones.json no fue encontrado.');
             return;
         }
 
-        $delegaciones = array_map('str_getcsv', file($path));
+        // Leer y decodificar el JSON automáticamente a array de PHP
+        $delegaciones = File::json($path);
 
-        foreach ($delegaciones as $index => $row) {
-            if ($index === 0) continue; // Omitir cabecera
-
-            $row = array_map('trim', $row); // Elimina espacios invisibles
-
-            Delegacion::updateOrCreate(
-                ['id' => $row[0]],
-                [
-                    'region_id'        => $row[1],
-                    'delegacion'       => $row[2],
-                    'sede'             => $row[3],
-                    'nivel_id'         => $row[4],
-                ]
-            );
+        // Insertar en bloques de 500 para máximo rendimiento
+        foreach (array_chunk($delegaciones, 500) as $chunk) {
+            Delegacion::upsert($chunk, ['id'], ['region_id', 'delegacion', 'sede', 'nivel_id']);
         }
 
-        $this->command->info('delegaciones importadas correctamente.');
-    } 
+        $this->command->info('Delegaciones importadas desde JSON correctamente.');
+    }
 }
